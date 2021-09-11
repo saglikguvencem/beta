@@ -1,0 +1,25 @@
+html {
+  background-color:#F2F2F2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+ *{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+#header h1{
+	color:#262526;
+	text-align:center;
+}
+#header p{
+	text-align:center;
+	color:#262526;
+}
